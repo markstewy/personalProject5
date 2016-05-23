@@ -1,0 +1,411 @@
+/*ANGULAR MODAL SERVICE CSS*/
+.overlay {
+  color: black;
+  position: fixed;
+  left: 25%;
+  top: 20%;
+  padding: 25px;
+  border: 2px solid black;
+  background-color: #ffffff;
+  z-index: 100;
+  overflow: auto;
+  border-radius: 2px;
+  border: 1px solid #C0C3C5;
+}
+.fade {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  background-color: black;
+  -moz-opacity: 0.7;
+  opacity: .70;
+  filter: alpha(opacity=70);
+  width: 100%;
+  height: 100%;
+  z-index: 90;
+}
+/* END ANGULAR MODAL SERVICE CSS*/
+
+
+
+/*REGISTER*/
+#register-title {
+   text-align: left;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-family: sans-serif;
+   color: #666666;
+   font-size: 40px;
+}
+.signup-free {
+   margin: 15px;
+   font-family: sans-serif;
+   color: #666666;
+   font-size: 20px;
+}
+
+
+.nav {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+    z-index: 99;
+        color: rgb(226, 221, 221);
+}
+#navbutton {
+    z-index: 99;
+    text-decoration: none;
+      margin: 8px;
+}
+.sliders {
+    position: fixed;
+    top: 60%;
+    right: 40px;
+    z-index: 1;
+    display: none;
+}
+.slider-wrap {
+   width: 100%;
+   position: absolute;
+   bottom: -5%;
+}
+#slider {
+   text-decoration: none;
+   font-size: 30px;
+   color: #FF7F50;
+   text-align: center;
+
+}
+#sliderarrows {
+   text-decoration: none;
+   font-size: 30px;
+   color: #FF7F50;
+   font-size: 15px;
+   /*margin-top: 20px;*/
+}
+.background-main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: cadetblue;
+    height: 600px;
+    /*margin-top: -562px;*/
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 400px, 50% 500px, 0 400px);
+    clip-path: polygon(0 0, 100% 0, 100% 400px, 50% 500px, 0 400px);
+    z-index: 2;
+}
+#wall {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(247, 247, 244, 0.68), rgba(247, 247, 244, 0.9)), url("https://images.unsplash.com/uploads/1413548921627cb0e00f3/80652197?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2950cb0e9604428b8100c55880d6dc58");
+}
+#sf {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(247, 247, 244, 0.68), rgba(247, 247, 244, 0.9)), url("https://images.unsplash.com/photo-1452269826925-82be65baa057?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=813effa9de7316c73afe87f515173252");
+}
+#girlwalking {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(247, 247, 244, 0.68), rgba(247, 247, 244, 0.9)), url("https://images.unsplash.com/photo-1452270313744-e5ccb6de0c78?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=ffd731f7388c6611aab2eba59720d47f");
+}
+#study {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(247, 247, 244, 0.68), rgba(247, 247, 244, 0.9)), url("https://images.unsplash.com/photo-1453799527828-cf1bd7b2f682?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=db038dcc6079a3fe3e1c2f64fcf2a6c1");
+}
+#wallsmile {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(247, 247, 244, 0.68), rgba(247, 247, 244, 0.9)), url("https://images.unsplash.com/31/iqlYdAAYQiaOCoKnT6jE_kabia.jpg?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1425");
+}
+#winter {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(247, 247, 244, 0.68), rgba(247, 247, 244, 0.9)), url("https://images.unsplash.com/photo-1462416587330-d841c65742b4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=de9b1f74c9e40cd9a0c0873937e158c1");
+}
+#vest {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(247, 247, 244, 0.68), rgba(247, 247, 244, 0.9)), url("https://images.unsplash.com/photo-1421140702025-9bb9db769200?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=6768d98efad81bbab5e1a73ea18eac5d");
+}
+#tracks {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(247, 247, 244, 0.68), rgba(247, 247, 244, 0.9)), url("https://images.unsplash.com/photo-1445970389378-eb24802687f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4cbaa276ab5592cc481c817bd0bdfc14");
+}
+
+/*MY TUITION PLAN TITLE*/
+#slide1-maincontainer {
+height: 100vh;
+}
+
+.title-main {
+    color: white;
+    padding-top: 100px;
+}
+.findyourwaywrap {
+    height: 100%;
+    margin-top: -440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.material-icons {
+    font-size: 102px;
+    text-decoration: none;
+}
+#question {
+    font-size: 137px;
+}
+.findyourway {
+    padding-top: 465px;
+    /*width: 100%;*/
+    font-family: Montserrat;
+    color: #666666;
+    font-size: 130px;
+    text-align: center;
+}
+.middle {
+    font-family: 'Quicksand', sans-serif, bold;
+    /*font-family: 'Fredericka the Great', cursive;*/
+    /*font-family: font-family: 'Vast Shadow', cursive;;*/
+    font-weight: 700;
+    padding: 5px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    letter-spacing: 25px;
+    font-size: 120px;
+    /*color: #FF7F50;*/
+    width: max-content;
+    margin: auto;
+}
+.top-bottom {
+    font-family: 'Quicksand', sans-serif;
+    /*color: #666666;*/
+    letter-spacing: 10px;
+    padding: 8px;
+    font-size: 40px;
+    width: max-content;
+    margin: auto;
+}
+
+/*HAMBURGER MENU*/
+
+.hamburger {
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.cross {
+    font-size: 72px;
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 33px;
+    display: none;
+}
+
+/*SCHOOL SCROLL INPUTS*/
+
+.input-container-main {
+    width: 100%;
+}
+.scroll1 {
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+.input-title {
+    font-family: Montserrat;
+    color: #666666;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+.step {
+    margin: auto;
+    border-bottom: black 10px;
+    text-align: center;
+    padding-top: 36px;
+    font-family: Montserrat;
+    color: white;
+    font-size: 40px;
+    background-color: #FF7F50;
+    height: 180px;
+    width: 360px;
+    border-radius: 0 0 180px 180px;
+    -moz-border-radius: 0 0 180px 180px;
+    -webkit-border-radius: 0 0 180px 180px;
+    border-style: solid;
+    border-color: #444444;
+}
+#steptext {
+    font-size: 68px;
+}
+.input-container1 {
+    height: 100vh;
+    background-color: cadetblue;
+    color: white;
+      text-align: center;
+      font-family: monospace;
+}
+
+#input-title1 {
+    color: white;
+    /*padding-top: 60px;*/
+}
+#moreaccurate {
+   font-size: 25px;
+}
+#tuition-estimates {
+   font-size: 20px;
+};
+#tuition-estimates-num {
+   font-size: 39px;
+
+};
+#continuearrow {
+   font-size: 200px;
+   text-decoration: none;
+}
+
+.input-container2 {
+    text-align: center;
+    font-family: monospace;
+    height: 100vh;
+    color: #666666;
+}
+#input-title2 {
+    border-top: none;
+}
+.step2button {
+   margin-bottom: 10px;
+}
+.payment {
+   margin-bottom: 70px;
+   font-size: 20px;
+}
+.input-container3 {
+    height: 100vh;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+#input-title3 {
+    color: white;
+    padding-top: 60px;
+}
+#zip-submit {
+   margin-bottom: 40px;
+}
+.zip-results {
+   font-size: 20px;
+
+}
+.circle-refresh {
+   border-radius: 50%;
+	width: 200px;
+	height: 200px;
+   /*background-color: #FF7F50;*/
+   border: dotted;
+   border-color: #444444;
+   border-width: 15px;
+}
+
+/*COMPASS BUTTON*/
+
+.button {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 30px;
+    margin: 196px 0 0 -70px;
+    cursor: pointer;
+}
+.compass {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #444;
+    border-radius: 0 50% 50% 50%;
+    border: 10px solid white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+    border-right-color: coral;
+    border-bottom-color: coral;
+    transition: border-radius .2s;
+    box-sizing: border-box;
+}
+.button:hover .compass {
+    border-radius: 50%;
+}
+#msg {
+   text-decoration: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    line-height: 140px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+/*COMPASS BUTTON END*/
+
+
+/*@media query (max-width: 880px) {}*/
+
+@media (max-width: 545px) {
+    .findyourway {
+        font-size: 18px;
+        top: 524px;
+        display: none;
+    }
+    .input-title {
+        font-size: 18px;
+    }
+    #input-title-sub {
+      font-family: monospace;
+      font-size: 15px;
+      margin-bottom: 7px;
+
+   }
+    .middle {
+        font-size: 50px;
+        letter-spacing: 9px;
+    }
+    .top-bottom {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 27px;
+    }
+    .background-main {
+        height: 300px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
+        clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
+    }
+    .title-main {
+        top: 60px;
+    }
+    .button {
+        margin: 223px 0 0 -70px;
+    }
+}
+
+/*end of media query*/

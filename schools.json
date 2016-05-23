@@ -1,0 +1,66 @@
+   {
+      "name": "University of Nevada Las Vegas",
+      "state": "Nevada",
+      "percentage_of_undergranduates_with_student_loans": "78%",
+      "median_total_debt_amt": 13000,
+      "inStateOnCampus": 24231,
+      "inStateOffCampus": 24231,
+      "outStateOnCampus": 34231,
+      "outStateOffCampus": 34231,
+      "webCalc": "https://apps.ess.unlv.edu/fa_netpricecalc/npcalc.htm"
+   }
+   {
+      "name": "Brigham Young Univeristy",
+      "state": "Utah",
+      "percentage_of_undergranduates_with_student_loans": "78%",
+      "median_total_debt_amt": 13000,
+      "inStateOnCampus": 10231,
+      "inStateOffCampus": 10231,
+      "outStateOnCampus": 10231,
+      "outStateOffCampus": 10231,
+      "webCalc": "https://financialaid.byu.edu/net-price-calculator"
+   }
+   {
+      "name": "Brigham Young Univeristy - Idaho",
+      "state": "Idaho",
+      "percentage_of_undergranduates_with_student_loans": "78%",
+      "median_total_debt_amt": 13000,
+      "inStateOnCampus": 9123,
+      "inStateOffCampus": 9231,
+      "outStateOnCampus": 9321,
+      "outStateOffCampus": 9132,
+      "webCalc": "https://financialaid.byu.edu/net-price-calculator"
+   }
+   {
+      "name": "Arizona State University",
+      "state": "AZ",
+      "percentage_of_undergranduates_with_student_loans": "78%",
+      "median_total_debt_amt": 13000,
+      "inStateOnCampus": 19123,
+      "inStateOffCampus": 19231,
+      "outStateOnCampus": 19321,
+      "outStateOffCampus": 19132,
+      "webCalc": "https://students.asu.edu/financialaid/net-price"
+   }
+   {
+      "name": "Harvard University",
+      "state": "MA",
+      "percentage_of_undergranduates_with_student_loans": "78%",
+      "median_total_debt_amt": 13000,
+      "inStateOnCampus": 7123,
+      "inStateOffCampus": 7231,
+      "outStateOnCampus": 7321,
+      "outStateOffCampus": 7132,
+      "webCalc": "https://college.harvard.edu/financial-aid/net-price-calculator"
+   }
+   {
+      "name": "Stanford Univeristy",
+      "state": "CA",
+      "percentage_of_undergranduates_with_student_loans": "78%",
+      "median_total_debt_amt": 13000,
+      "inStateOnCampus": 11123,
+      "inStateOffCampus": 11231,
+      "outStateOnCampus": 11321,
+      "outStateOffCampus": 11132,
+      "webCalc": "https://financialaid.stanford.edu/undergrad/how/calculator/"
+   }

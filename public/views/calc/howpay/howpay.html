@@ -1,0 +1,23 @@
+<!-- HOW WILL I PAY? -->
+<div class="input-container2" stye="height: 100vh;">
+    <div class="step" id="step2"><span id="steptext">STEP 2</span></div>
+    <h3 class="input-title" id="input-title2">How will I pay?</h3> {{foundData | currency: "$": 0}}
+    <br> +from savings per academic year <br> <br>
+    <input type="text" placeholder="annual from savings" ng-model="pay.savings"> <br>
+    <br> +from part-time employement per academic year <br> <br>
+    <input type="text" placeholder="annual from work / study" ng-model="pay.work"> <br>
+    <br> +from family contributions per academic year <br> <br>
+    <input type="text" placeholder="annual from family" ng-model="pay.family"> <br>
+    <br>
+    <button type="button" class="step2button" ng-click="loanNeedFn(pay)">Submit</button>
+    <div class="payment">
+      <br> <span style="font-size:40px;">{{annLoans | currency: "$": 0}}</span> in student loans per Year
+      <br> <span style="font-size:40px;">{{totalLoans | currency: "$": 0}}</span> total debt at Graduation (assuming 4 academic years)
+      <br>
+      <br> Estimated <span style="font-size: 40px;">{{monthlyPmt | currency: "$": 0}}</span> monthly payment for <span style="font-size: 40px;">10</span> years.
+    </div>
+    <div class="slider-wrap">
+      <a class="material-icons" href="#fourthPage" id='slider'style="text-decoration: none; font-size: 200px;">&#xE313;</a>
+    </div>
+</div>
+<!-- END HOW WILL I PAY? -->

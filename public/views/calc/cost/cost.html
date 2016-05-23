@@ -1,0 +1,62 @@
+<!-- SECTION #2 -->
+<!-- <div class="section">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!USE ANCHORS TO HAVE SOEM TAGS IN CALC.HTML -->
+
+<!-- WHAT WILL IT COST -->
+<div class="input-container1" class="section" id="slide2">
+    <div class="step" id="step1"><span id="steptext">STEP 1</span></div>
+    <div class="input-title" id="input-title1">What Will it Cost?</div>
+
+    <div style="margin-bottom: 7px;">Pick a school:</div>
+    <select class="scroll1" ng-model="lookup.id">
+        <option>-Select School-</option>
+        <option value="{{school._id}}" ng-repeat="school in schools">{{school.name}}</option>
+    </select>
+    <br>
+    <br>
+    <div style="margin-bottom: 7px;">Is this school in or out of state?</div>
+    <select class="scroll1" ng-model="lookup.inout">
+        <option>-In / Out of State Tuition-</option>
+        <option value="inState">In State Tuition</option>
+        <option value="outState">Out of State Tuition</option>
+    </select>
+    <br>
+    <br>
+    <div style="margin-bottom: 7px;">What kind of housing do you want?</div>
+    <select class="scroll1" ng-model="lookup.housing">
+        <option>-Select Housing-</option>
+        <option value="OnCampus">On Campus</option>
+        <option value="OffCampus">Off Campus</option>
+        <option value="OffCampus (with family)">Off Campus (with family)</option>
+    </select>
+    <br>
+    <br>
+    <div class="">
+        <button class="md-button" class="md-raised" type="button" name="button" ng-click="roughFn(lookup)">Submit Rough Esimate</button>
+        <br>
+        <br>
+        <br>
+        <div>
+            <div id="moreaccurate" style="margin-bottom: 7px;">Get an more accurate estimate <a href={{cost.webCalc}} target="blank">HERE</a></div>
+            <form ng-submit="improvedFn(updatedAmt)">
+                $
+                <input type="text" placeholder="enter dollar amount" ng-model="updatedAmt"><span>(cost to you per academic year)</span>
+            </form>
+            <br>
+            <button type="button" name="button" ng-click="improvedFn(updatedAmt)">Update Estimate</button>
+        </div>
+        <br>
+        <div id="tuition-estimates">
+            <span>Your <span style="font-size:40px;">{{cost.estimateTag}}</span> esimate for cost is <span style="font-size:40px;">{{cost.cost | currency: "$": 0}}</span> per academic year.</span>
+            <br>
+         <span style="font-size:40px;">{{cost.cost4 | currency: "$": 0}} </span> for 4 full academic years</span>
+        </div>
+    </div>
+    <div class="slider-wrap">
+      <a class="material-icons" href="#thirdPage" id='slider'style="text-decoration: none; font-size: 200px;">&#xE313;</a>
+    </div>
+</div>
+<!-- <ul class="sliders"> -->
+<!-- </ul> -->
+<!--END WHAT WILL IT COST -->
+<!-- </div> -->
+<!-- END SECTION #2 -->

@@ -1,0 +1,30 @@
+<!-- WHAT WILL I MAKE? -->
+<div class="input-container3">
+    <div class="step" id="step3"><span id="steptext">STEP 3</span></div>
+    <h3 class="input-title" id="input-title3">Choose your future career / occupation:</h3>
+    <select class="scroll1" ng-model="postgrad.job">
+        <option>-Select Occupation-</option>
+        <option value="{{occupation.title}}" ng-repeat="occupation in occupations">{{occupation.title}}</option>
+    </select>
+    <h3 class="input-title" id="input-title3">Where do you plan to live?</h3>
+    <input type="text" placeholder=" enter zip code" ng-model="postgrad.zip"> <br><br> <br><br><br>
+    <button type="button" id= "zip-submit" ng-click="finSit()">Submit</button>
+    <br>
+
+
+<div class="zip-results">
+<span>The median salary for <span style="font-size: 40px;">{{costliving.title}}</span> <br>in <span style="font-size: 40px;">{{costliving.zip}}</span> is <span style="font-size:40px;">{{costliving.salary | currency: "$": 0}}</span> per year </span>
+
+</div>
+
+
+
+
+
+
+    <div class="slider-wrap">
+      <a class="material-icons" href="#fifthPage" id='slider'style="text-decoration: none; font-size: 200px;">&#xE313;</a>
+    </div>
+
+</div>
+<!-- WHAT WILL I MAKE? -->

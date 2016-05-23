@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>My Tuition Plan</title>
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+    <!-- GOOGLE ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- MODAL CSS -->
+
+    <!-- FULL PAGE CSS` -->
+    <link rel="stylesheet" type="text/css" href="./plugin/fullPage.js-master 2/jquery.fullPage.css" />
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="./css/styles.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body ng-controller="mainCtrl">
+    <!-- ANCHOR BUTTONS -->
+    <ul class="sliders">
+        <li><i id='sliderarrows' class="fa fa-chevron-up"></i></li>
+        <br>
+        <li><a href="#firstPage" id='slider'>&#8226</a></li>
+        <br>
+        <li><a href="#secondPage" id='slider'>&#8226</a></li>
+        <br>
+        <li><a href="#thirdPage" id='slider'>&#8226</a></li>
+        <br>
+        <li><a href="#fourthPage" id='slider'>&#8226</a></li>
+        <br>
+        <li><a href="#fifthPage" id='slider'>&#8226</a></li>
+        <br>
+        <li><i id='sliderarrows' class="fa fa-chevron-down"></i></li>
+    </ul>
+
+    <!-- MAIN PAGES -->
+    <div id="fullpage">
+        <!-- SECTION #1 LANDING----------------------------------------------------------->
+        <div class="section">
+            <nav class="nav" class="section active">
+                <a id="navbutton" ng-click="opensignup()">REGISTER </a> || <a id="navbutton" ng-click="openlogin()"> LOGIN</a>
+            </nav>
+            <signup-dir></signup-dir>
+            <landing-dir></landing-dir>
+        </div>
+        <!-- SECTION #2 STEP1:COST----------------------------------------------->
+        <div class="section">
+            <cost-dir></cost-dir>
+        </div>
+        <!-- SECTION #3 STEP2: HOWPAY ----------------------------------------------->
+        <div class="section">
+            <payhow-dir></payhow-dir>
+
+        </div>
+        <!-- SECTION #4 STEP3: EPOTENTIAL ----------------------------------------------->
+        <div class="section">
+            <epotential-dir></epotential-dir>
+        </div>
+        <!-- SECTION #5 RESULTS ------------------------------------------------------->
+        <div class="section">
+            <results-dir></results-dir>
+        </div>
+        <!-- <div class="section" style="background-color: grey">section6</div> -->
+    </div>
+    <!-- END MAIN PAGES -->
+
+
+
+
+
+    <!-- ANGULAR  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js" charset="utf-8"></script>
+    <script src="./app.js" charset="utf-8"></script>
+    <script src="./mainCtrl.js" charset="utf-8"></script>
+    <script src="./mainService.js" charset="utf-8"></script>
+    <script src="./views/calc/calcCtrl.js" charset="utf-8"></script>
+    <script src="./views/calc/calcSvc.js" charset="utf-8"></script>
+    <script src="./views/landing/landingDir.js" charset="utf-8"></script>
+    <script src="./views/calc/cost/costDir.js" charset="utf-8"></script>
+    <script src="./views/calc/howpay/howpayDir.js" charset="utf-8"></script>
+    <script src="./views/calc/epotential/epotentialDir.js" charset="utf-8"></script>
+    <script src="./views/calc/results/resultsDir.js" charset="utf-8"></script>
+    <script src="./views/signup/signupCtrl.js" charset="utf-8"></script>
+    <script src="./views/login/loginCtrl.js" charset="utf-8"></script>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js" charset="utf-8"></script>
+    <!-- leanMODAL JQUERY -->
+    <script type="text/javascript" src="./plugin/jquery.leanModal.min.js"></script>
+    <!-- FULL PAGE JQUERY -->
+    <script src="./plugin/fullPage.js-master 2/vendors/jquery.easings.min.js"></script>
+    <script type="./plugin/fullPage.js-master 2/vendors/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <!-- ^^^^^^^^^I TRIED TO COPY NEW FILE PATH BUT THIS FILE THREW AN ERROR UNLESS IN THE SAME FOLDER AS INDEX.HTML^^^^^ -->
+    <!-- MY JQUERY FILE (THAT CONTAINS SOME COPY AND PASTED JQUERY FROM THE FULL PAGE HTML (there was inline jquery)) -->
+    <script type="text/javascript" src="jQuery.js"></script>
+    <!-- ANGULAR MODAL SERVICE  -->
+    <script src="./angular-modal-service.min.js"></script>
+    <!-- Chartjs & NG-Charts CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+    <script src="https://rawgit.com/jtblin/angular-chart.js/master/dist/angular-chart.min.js"></script>
+
+
+</body>
+
+</html>
